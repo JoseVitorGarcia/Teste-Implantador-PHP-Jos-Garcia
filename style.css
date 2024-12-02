@@ -1,0 +1,225 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #09949F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    min-width: 25%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    gap: 40px;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-container {
+    min-width: 25%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    gap: 40px;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+.list-container{
+    width: 25%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.buttons-container{
+    width: 60%;
+}
+
+
+
+
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px; 
+    outline: none;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #9ec4d1; 
+}
+
+.input-color{
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ad8e39;
+    background-color: transparent;
+    border: 2px solid #ad8e39; 
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+
+
+
+.button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ad8e39; 
+    background-color: transparent;
+    border: 2px solid #ad8e39; 
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #ad8e39;
+    color: white;
+}
+
+
+
+.question-button {
+    
+    width: 30px;
+    height: 30px;
+    background-color: #09949F; 
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative; 
+    transition: background-color 0.3s;
+}
+
+
+.question-button:hover::after {
+    content: "O proposito deste sistema, é fazer da utilização de um CRUD para usuários juntamente com a vinculação/desvinculação de cores para os mesmos";
+    top: -40px;  
+    left: 50%;
+    font-family: Arial, sans-serif;
+    transform: translateX(-50%); 
+    background-color: white;  
+    color: black;  
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;  
+    text-align: justify;
+    display: block;
+    z-index: 1;
+    padding: 10px;
+}
+
+
+.question-button:hover {
+    background-color: white;
+    color: #09949F 
+}
+
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #09949F;
+    color: white; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer; 
+}
+
+td a {
+    color: #09949F;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px; 
+    transition: 0.3s; 
+}
+
+td a:hover {
+    background-color: #09949F; 
+    color: white; 
+    border: 1px solid #09949F; 
+}
+
